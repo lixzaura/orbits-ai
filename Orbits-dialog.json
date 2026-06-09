@@ -1,0 +1,2073 @@
+{
+  "intents": [
+    {
+      "intent": "cadastrar_empresa",
+      "examples": [
+        {
+          "text": "adicionar agência espacial"
+        },
+        {
+          "text": "adicionar empresa"
+        },
+        {
+          "text": "adicionar empresa aeroespacial"
+        },
+        {
+          "text": "cadastrar instituição"
+        },
+        {
+          "text": "cadastrar startup espacial"
+        },
+        {
+          "text": "cadastrar uma empresa"
+        },
+        {
+          "text": "criar empresa"
+        },
+        {
+          "text": "incluir organização espacial"
+        },
+        {
+          "text": "nova empresa"
+        },
+        {
+          "text": "nova organização"
+        },
+        {
+          "text": "registrar companhia espacial"
+        },
+        {
+          "text": "registrar empresa espacial"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cadastrar_satelite",
+      "examples": [
+        {
+          "text": "adicionar objeto orbital"
+        },
+        {
+          "text": "adicionar satélite"
+        },
+        {
+          "text": "adicionar satélite artificial"
+        },
+        {
+          "text": "cadastrar equipamento espacial"
+        },
+        {
+          "text": "cadastrar órbita"
+        },
+        {
+          "text": "cadastrar satélite"
+        },
+        {
+          "text": "criar satélite"
+        },
+        {
+          "text": "incluir satélite"
+        },
+        {
+          "text": "novo satélite"
+        },
+        {
+          "text": "quero cadastrar um satélite"
+        },
+        {
+          "text": "registrar novo satélite"
+        },
+        {
+          "text": "registrar satélite"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "encerrar_atendimento",
+      "examples": [
+        {
+          "text": "até logo"
+        },
+        {
+          "text": "até mais"
+        },
+        {
+          "text": "encerrar atendimento"
+        },
+        {
+          "text": "finalizar conversa"
+        },
+        {
+          "text": "fui"
+        },
+        {
+          "text": "nos vemos depois"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "pode encerrar"
+        },
+        {
+          "text": "sair"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "terminar atendimento"
+        },
+        {
+          "text": "valeu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "explicar_objeto_espacial",
+      "examples": [
+        {
+          "text": "como funcionam os objetos espaciais"
+        },
+        {
+          "text": "como funciona o ecossistema espacial"
+        },
+        {
+          "text": "explique os equipamentos espaciais"
+        },
+        {
+          "text": "me explique o que existe no espaço"
+        },
+        {
+          "text": "me explique os objetos espaciais"
+        },
+        {
+          "text": "me fale sobre estruturas espaciais"
+        },
+        {
+          "text": "o que existe em órbita"
+        },
+        {
+          "text": "quais objetos ficam no espaço"
+        },
+        {
+          "text": "quais são os tipos de objetos espaciais"
+        },
+        {
+          "text": "quero aprender sobre o espaço"
+        },
+        {
+          "text": "quero entender o espaço"
+        },
+        {
+          "text": "quero saber mais sobre o ambiente espacial"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ingressar_iniciativa",
+      "examples": [
+        {
+          "text": "consultar iniciativas"
+        },
+        {
+          "text": "entrar em iniciativa"
+        },
+        {
+          "text": "ingressar em projeto espacial"
+        },
+        {
+          "text": "listar iniciativas"
+        },
+        {
+          "text": "mostrar iniciativas espaciais"
+        },
+        {
+          "text": "mostrar projetos espaciais"
+        },
+        {
+          "text": "participar de iniciativa espacial"
+        },
+        {
+          "text": "quais projetos estão disponíveis"
+        },
+        {
+          "text": "quero colaborar em um projeto"
+        },
+        {
+          "text": "quero entrar em uma iniciativa"
+        },
+        {
+          "text": "quero participar de uma iniciativa"
+        },
+        {
+          "text": "ver iniciativas cadastradas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "principais_satelites",
+      "examples": [
+        {
+          "text": "consultar objetos em órbita"
+        },
+        {
+          "text": "consultar satélites"
+        },
+        {
+          "text": "listar satélites"
+        },
+        {
+          "text": "me mostre satélites"
+        },
+        {
+          "text": "mostrar equipamentos orbitais"
+        },
+        {
+          "text": "mostrar satélites principais"
+        },
+        {
+          "text": "quais são os principais satélites"
+        },
+        {
+          "text": "quais satélites existem"
+        },
+        {
+          "text": "quero conhecer satélites"
+        },
+        {
+          "text": "quero informações sobre satélites"
+        },
+        {
+          "text": "quero ver satélites"
+        },
+        {
+          "text": "ver satélites espaciais"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ranking_reputacao",
+      "examples": [
+        {
+          "text": "consultar ranking"
+        },
+        {
+          "text": "empresas mais sustentáveis"
+        },
+        {
+          "text": "exibir ranking das empresas"
+        },
+        {
+          "text": "mostrar empresas com maior score"
+        },
+        {
+          "text": "mostrar ranking de reputação"
+        },
+        {
+          "text": "mostrar score das empresas"
+        },
+        {
+          "text": "quais empresas têm maior score"
+        },
+        {
+          "text": "quais são as melhores empresas espaciais"
+        },
+        {
+          "text": "ranking de empresas espaciais"
+        },
+        {
+          "text": "ranking de sustentabilidade espacial"
+        },
+        {
+          "text": "ranking espacial"
+        },
+        {
+          "text": "ver pontuação das empresas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "acessar sistema"
+        },
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "começar"
+        },
+        {
+          "text": "eai"
+        },
+        {
+          "text": "iniciar atendimento"
+        },
+        {
+          "text": "menu principal"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "olá"
+        },
+        {
+          "text": "quero começar"
+        },
+        {
+          "text": "tudo bem?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sobre_projeto",
+      "examples": [
+        {
+          "text": "como funciona o sistema espacial"
+        },
+        {
+          "text": "explique a solução espacial"
+        },
+        {
+          "text": "me explique a ideia do projeto"
+        },
+        {
+          "text": "me explique o projeto"
+        },
+        {
+          "text": "me fale sobre a plataforma"
+        },
+        {
+          "text": "o que essa plataforma faz"
+        },
+        {
+          "text": "o que vocês monitoram"
+        },
+        {
+          "text": "para que serve esse sistema"
+        },
+        {
+          "text": "qual a finalidade do projeto"
+        },
+        {
+          "text": "qual é o objetivo do sistema"
+        },
+        {
+          "text": "quero entender o projeto"
+        },
+        {
+          "text": "sobre o que é a plataforma"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "CNPJ",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "CPNJ",
+          "patterns": [
+            "^\\d{2}\\.?\\d{3}\\.?\\d{3}\\/?\\d{4}-?\\d{2}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "CPF",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "CPF",
+          "patterns": [
+            "([0-9]{2}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[\\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[-]?[0-9]{2})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "empresa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Blue Origin",
+          "synonyms": [
+            "blue origin",
+            "empresa do jeff bezos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ESA",
+          "synonyms": [
+            "agencia espacial europeia",
+            "esa",
+            "european space agency"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NASA",
+          "synonyms": [
+            "agencia espacial americana",
+            "nasa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rocket Lab",
+          "synonyms": [
+            "rocket lab",
+            "rocketlab"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SpaceX",
+          "synonyms": [
+            "empresa do elon musk",
+            "space x",
+            "spacex"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "iniciativas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Deep Agriculture Program",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Global Satellite Sustainability Network",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Global Sustainability Network",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Orbital Clean Future",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "objeto_espacial",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Estação Espacial",
+          "synonyms": [
+            "base espacial",
+            "estação espacial",
+            "estação orbital",
+            "iss",
+            "plataforma orbital"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Foguete",
+          "synonyms": [
+            "foguete",
+            "lançador",
+            "propulsor espacial",
+            "rocket",
+            "veículo espacial"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lixo Espacial",
+          "synonyms": [
+            "detrito",
+            "detrito espacial",
+            "fragmento espacial",
+            "lixo",
+            "lixo espacial",
+            "resíduo espacial",
+            "sucata espacial"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Meteorito",
+          "synonyms": [
+            "meteorito",
+            "pedra espacial",
+            "rocha espacial"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Meteoro",
+          "synonyms": [
+            "meteoro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Satélite Artificial",
+          "synonyms": [
+            "equipamento orbital",
+            "objeto artificial",
+            "satelite",
+            "satélite",
+            "satélite artificial",
+            "sat orbital"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "satelite",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "satelite",
+          "patterns": [
+            "^[A-Za-z]{1,10}-\\d{1,6}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_orbita",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alta",
+          "synonyms": [
+            "alta",
+            "HEO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Baixa",
+          "synonyms": [
+            "baixa",
+            "LEO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Geoestacionária",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Média",
+          "synonyms": [
+            "media",
+            "MEO"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "title": "Olá, seja bem-vindo(a) ao bot da Orbits! ",
+            "options": [
+              {
+                "label": "Sobre o Projeto ⁉️",
+                "value": {
+                  "input": {
+                    "text": "sobre o projeto"
+                  }
+                }
+              },
+              {
+                "label": "Cadastrar Empresa 🏢",
+                "value": {
+                  "input": {
+                    "text": "cadastrar uma empresa"
+                  }
+                }
+              },
+              {
+                "label": "Cadastrar Satélite 🛰️",
+                "value": {
+                  "input": {
+                    "text": "adicionar objeto orbital"
+                  }
+                }
+              },
+              {
+                "label": "Explicar Objeto Espacial 🌠",
+                "value": {
+                  "input": {
+                    "text": "Explicar Objeto Espacial"
+                  }
+                }
+              },
+              {
+                "label": "Principais Satélites 🛰️",
+                "value": {
+                  "input": {
+                    "text": "consultar objetos em órbita"
+                  }
+                }
+              },
+              {
+                "label": "Ranking de Reputação📊  ",
+                "value": {
+                  "input": {
+                    "text": "Ranking de Reputação"
+                  }
+                }
+              },
+              {
+                "label": "Ingressar Iniciativa 🌌",
+                "value": {
+                  "input": {
+                    "text": "Ingressar Iniciativa"
+                  }
+                }
+              }
+            ],
+            "description": "🔹Com o que posso ajudar? 😉",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome || input.text==\"/start\"",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, não consegui entender. Você pode reformular a frase?"
+              },
+              {
+                "text": "Você pode reformular sua mensagem, por favor? Assim consigo ajudar melhor."
+              },
+              {
+                "text": "Não entendi muito bem. Tente escrever de outra forma, por favor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_3_1780085630624",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Nome da empresa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ótimo, $nome_empresa!\n2️⃣ Agora, insira o CNPJ da empresa\n(FORMATO: XX.XXX.XXX/XXXX-XX)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1780086963596",
+      "context": {
+        "nome_empresa": "<? input.text ?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1780088583410"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Tudo bem! 😉",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1780089357040",
+      "conditions": "input.text == \"nao\"",
+      "dialog_node": "node_10_1780089729360",
+      "previous_sibling": "node_1_1780089727569"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Explicar Objeto Espacial",
+            "options": [
+              {
+                "label": "Satélite Artificial 🛰️",
+                "value": {
+                  "input": {
+                    "text": "Satélite Artificial"
+                  }
+                }
+              },
+              {
+                "label": "Lixo Espacial 🗑️",
+                "value": {
+                  "input": {
+                    "text": "Lixo Espacial"
+                  }
+                }
+              },
+              {
+                "label": "Foguete 🚀",
+                "value": {
+                  "input": {
+                    "text": "Foguete"
+                  }
+                }
+              },
+              {
+                "label": "Estação Espacial 🏢",
+                "value": {
+                  "input": {
+                    "text": "Estação Espacial"
+                  }
+                }
+              },
+              {
+                "label": "Meteoro 🌠",
+                "value": {
+                  "input": {
+                    "text": "Meteoro"
+                  }
+                }
+              },
+              {
+                "label": "Meteorito 🪨",
+                "value": {
+                  "input": {
+                    "text": "Meteorito"
+                  }
+                }
+              }
+            ],
+            "description": "🌌 Claro! Posso explicar os principais objetos espaciais, suas funções e os impactos que causam no ambiente espacial. Sobre qual objeto você deseja saber mais?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1780271393865",
+      "conditions": "#explicar_objeto_espacial",
+      "dialog_node": "node_10_1780271243712"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💫 Você selecionou: $orbita\n\n🌍 Satélites de órbita baixa ficam mais próximos da Terra e são muito utilizados para internet, imagens e monitoramento.\n\nPrincipais satélites:\n🛰️ Starlink\n🛰️ Hubble Space Telescope\n🛰️ ISS (Estação Espacial Internacional)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Escolha:",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "💫 Órbitas",
+                "value": {
+                  "input": {
+                    "text": "consultar objetos em órbita"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1780275206160",
+      "context": {
+        "orbita": "@tipo_orbita"
+      },
+      "conditions": "@tipo_orbita:Baixa",
+      "dialog_node": "node_10_1780275217538"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Certo! 😊 Seus dados foram enviados para nossa equipe e iremos responder o mais rápido possível 😉",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1780089357040",
+      "conditions": "input.text == \"sim\"",
+      "dialog_node": "node_1_1780089727569"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito! A empresa escolhida foi: $empresa\n2️⃣ Agora informe o nome do satélite:\n\n🔺 FORMATO: (nome de 1 a 10 letras) - (número de 1 a 6 caracteres)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1780097944381",
+      "context": {
+        "empresa": "@empresa"
+      },
+      "conditions": "@empresa:(Blue Origin)",
+      "dialog_node": "node_1_1780095471595",
+      "previous_sibling": "node_5_1780095366065"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Lixo Espacial 🗑️",
+            "source": "https://veja.abril.com.br/wp-content/uploads/2017/04/ciencia-lixo-espacial-20141125-001.jpg?crop=1&resize=1212,909",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "✨ Você selecionou: $objeto 😉\n\n🔺Lixo espacial são objetos abandonados no espaço, como peças de foguetes, satélites desativados e fragmentos de colisões. Esses resíduos representam um grande risco porque podem colidir com satélites ativos e comprometer sistemas de comunicação e futuras missões espaciais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "O que você gostaria de fazer agora? 😊",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "✨Mais objetos",
+                "value": {
+                  "input": {
+                    "text": "Explicar Objeto Espacial"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1780271506504",
+      "context": {
+        "objeto": "@objeto_espacial"
+      },
+      "conditions": "@objeto_espacial:(Lixo Espacial)",
+      "dialog_node": "node_1_1780271939126",
+      "previous_sibling": "node_4_1780271504336"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Estação Espacial 🏢",
+            "source": "https://img.odcdn.com.br/wp-content/uploads/2024/07/Destaque-Estacao-Espacial-Internacional-ISS-scaled.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "✨ Você selecionou: $objeto 😉\n\n🔺Uma estação espacial é uma estrutura construída para permanecer em órbita e servir como laboratório de pesquisas científicas no espaço. Ela permite estudar os efeitos da microgravidade, desenvolver tecnologias e realizar experimentos importantes para futuras missões espaciais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "O que você gostaria de fazer agora? 😊",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "✨Mais objetos",
+                "value": {
+                  "input": {
+                    "text": "Explicar Objeto Espacial"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1780271506504",
+      "context": {
+        "objeto": "@objeto_espacial"
+      },
+      "conditions": "@objeto_espacial:(Estação Espacial)",
+      "dialog_node": "node_1_1780272915599",
+      "previous_sibling": "node_3_1780272445513"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💫 Você selecionou: $iniciativa 😉\n🔺Insira seu CPF para confirmarmos sua identidade:\n(FORMATO: XXX.XXX.XXX-XX)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1780330413772",
+      "context": {
+        "iniciativa": "@iniciativas"
+      },
+      "conditions": "@iniciativas:(Global Sustainability Network)",
+      "dialog_node": "node_1_1780331548530",
+      "previous_sibling": "node_3_1780331263442"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $nome_empresa! 😊\nIdentifiquei que o CNPJ informado é $cnpj. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Confirmar cadastro?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1780088583410",
+      "context": {
+        "cnpj": "@CNPJ.literal"
+      },
+      "conditions": "@CNPJ:CPNJ",
+      "dialog_node": "node_2_1780089357040"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastrar Satélite",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito! 🛰️ Vamos iniciar o cadastro do novo satélite no sistema espacial.\n1️⃣ Qual empresa cadastrada gostaria de adicionar um satélite?\n\n🔺SpaceX\n🔺Blue Origin\n🔺NASA\n🔺ESA\n🔺Rocket Lab"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Escolha uma opção:",
+            "options": [
+              {
+                "label": "SpaceX",
+                "value": {
+                  "input": {
+                    "text": "SpaceX"
+                  }
+                }
+              },
+              {
+                "label": "Blue Origin",
+                "value": {
+                  "input": {
+                    "text": "Blue Origin"
+                  }
+                }
+              },
+              {
+                "label": "NASA",
+                "value": {
+                  "input": {
+                    "text": "NASA"
+                  }
+                }
+              },
+              {
+                "label": "ESA",
+                "value": {
+                  "input": {
+                    "text": "ESA"
+                  }
+                }
+              },
+              {
+                "label": "Rocket Lab",
+                "value": {
+                  "input": {
+                    "text": "Rocket Lab"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1780271016761",
+      "conditions": "#cadastrar_satelite",
+      "dialog_node": "node_2_1780094453608",
+      "previous_sibling": "node_5_1780097944381"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito! A empresa escolhida foi: $empresa\n2️⃣ Agora informe o nome do satélite:\n\n🔺 FORMATO: (nome de 1 a 10 letras) - (número de 1 a 6 caracteres)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1780097944381",
+      "context": {
+        "empresa": "@empresa"
+      },
+      "conditions": "@empresa:NASA",
+      "dialog_node": "node_2_1780095483729",
+      "previous_sibling": "node_1_1780095471595"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Meteorito 🪨",
+            "source": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/E16F/production/_114011775_8642f04e-7d55-43c4-a34c-82db63a42030.jpg.webp",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "✨ Você selecionou: $objeto 😉\n\n🔺Meteoritos são fragmentos de rochas espaciais que conseguem atravessar a atmosfera e atingir a superfície da Terra. Eles ajudam cientistas a estudar a formação do sistema solar e a composição do espaço."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "O que você gostaria de fazer agora? 😊",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "✨Mais objetos",
+                "value": {
+                  "input": {
+                    "text": "Explicar Objeto Espacial"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1780271506504",
+      "context": {
+        "objeto": "@objeto_espacial"
+      },
+      "conditions": "@objeto_espacial:Meteorito",
+      "dialog_node": "node_2_1780272986604",
+      "previous_sibling": "node_4_1780272608443"
+    },
+    {
+      "type": "folder",
+      "title": "Principais Satélites",
+      "dialog_node": "node_2_1780275194417",
+      "previous_sibling": "node_3_1780276428088"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌌 Estas são algumas iniciativas espaciais disponíveis na plataforma. Qual delas você deseja conhecer ou participar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "🔹 Orbital Clean Future\n\n📚 Área da iniciativa: Sustentabilidade orbital e remoção de lixo espacial. \n\n🏢 Empresas parceiras:  Astroscale ESA EOS Data Analytics\n👥 Usuários cadastrados: 128"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "🔹 Deep Space Agriculture Program\n\n📚 Área da iniciativa: Agricultura espacial e produção sustentável de alimentos em ambientes extraterrestres.\n\n🏢 Empresas parceiras:  NASA Blue Origin E-Space\n👥 Usuários cadastrados: 94"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "🔹 Global Satellite Sustainability Network\n\n📚 Área da iniciativa: Monitoramento orbital, comunicação via satélite e governança espacial sustentável. \n\n🏢 Empresas parceiras:  SpaceX Rocket Lab Astroscale\n👥 Usuários cadastrados: 173"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Escolha uma iniciativa:",
+            "options": [
+              {
+                "label": "Orbital Clean Future",
+                "value": {
+                  "input": {
+                    "text": "Orbital Clean Future"
+                  }
+                }
+              },
+              {
+                "label": "Deep Agriculture Program",
+                "value": {
+                  "input": {
+                    "text": "Deep Agriculture Program"
+                  }
+                }
+              },
+              {
+                "label": "Global Sustainability Network",
+                "value": {
+                  "input": {
+                    "text": "Global Sustainability Network"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1780329540218",
+      "conditions": "#ingressar_iniciativa",
+      "dialog_node": "node_2_1780329547171"
+    },
+    {
+      "type": "folder",
+      "title": "Iniciativas",
+      "parent": "node_8_1780329540218",
+      "dialog_node": "node_2_1780330413772",
+      "previous_sibling": "node_2_1780329547171"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💫 Você selecionou: $iniciativa 😉\n🔺Insira seu CPF para confirmarmos sua identidade:\n(FORMATO: XXX.XXX.XXX-XX)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1780330413772",
+      "context": {
+        "iniciativa": "@iniciativas"
+      },
+      "conditions": "@iniciativas:(Deep Agriculture Program)",
+      "dialog_node": "node_2_1780331551025",
+      "previous_sibling": "node_1_1780331548530"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💫 Seu cadastro:\n\nIniciativas: $iniciativa\nSeu cpf: $CPF\n\n🔺 Sua solicitação foi enviada para a equipe da iniciativa e logo você receberá uma resposta! 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1780329540218",
+      "context": {
+        "CPF": "@CPF.literal"
+      },
+      "conditions": "@CPF:CPF",
+      "dialog_node": "node_2_1780332163236",
+      "previous_sibling": "node_2_1780330413772"
+    },
+    {
+      "type": "standard",
+      "title": "Intenção Oi",
+      "output": {
+        "generic": [
+          {
+            "title": "Olá! 🚀 Seja bem-vindo à plataforma de monitoramento e governança espacial. Como posso te ajudar hoje?",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "✨Sair",
+                "value": {
+                  "input": {
+                    "text": "tchau"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#saudacao",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1780085630624",
+      "previous_sibling": "node_5_1780085783590"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito! A empresa escolhida foi: $empresa\n2️⃣ Agora informe o nome do satélite:\n\n🔺 FORMATO: (nome de 1 a 10 letras) - (número de 1 a 6 caracteres)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1780097944381",
+      "context": {
+        "empresa": "@empresa"
+      },
+      "conditions": "@empresa:ESA",
+      "dialog_node": "node_3_1780095494124",
+      "previous_sibling": "node_2_1780095483729"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Foguete 🚀",
+            "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/07/ariane-6.jpg?w=1024-0",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "✨ Você selecionou: $objeto 😉\n\n🔺Foguetes são veículos responsáveis por transportar satélites, sondas e astronautas para o espaço. Eles fornecem a força necessária para vencer a gravidade terrestre e alcançar a órbita. Seu desenvolvimento impulsiona a exploração espacial e novas tecnologias."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "O que você gostaria de fazer agora? 😊",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "✨Mais objetos",
+                "value": {
+                  "input": {
+                    "text": "Explicar Objeto Espacial"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1780271506504",
+      "context": {
+        "objeto": "@objeto_espacial"
+      },
+      "conditions": "@objeto_espacial:Foguete",
+      "dialog_node": "node_3_1780272445513",
+      "previous_sibling": "node_1_1780271939126"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre o Projeto",
+      "output": {
+        "generic": [
+          {
+            "title": "Nome do projeto: Orbits",
+            "source": "https://media.wired.com/photos/59322a9126780e6c04d2a1cb/3:2/w_2560%2Cc_limit/galacticfireworks.jpg",
+            "description": "",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "O espaço deixou de ser uma fronteira exclusiva de governos. Hoje, ele se tornou uma extensão do nosso mercado global. À medida que novas empresas, universidades e organizações passam a atuar nesse setor, surgem também desafios relacionados à transparência, sustentabilidade e governança.\n\n🌐\nA Orbits é uma plataforma pública de transparência e governança da economia espacial que centraliza informações sobre agentes, iniciativas e ativos espaciais.\n\n📊\nA plataforma reúne dados sobre os agentes espaciais e transforma essas informações em indicadores de confiança e sustentabilidade que permitem compreender quem está atuando no espaço, como está atuando e quais impactos suas atividades geram.\n\nAlém de promover maior transparência, a plataforma:\n\n👩‍🚀 \nConecta agentes do ecossistema espacial; \n📑 \nDisponibiliza informações educacionais sobre o setor;\n♻️ \nMonitora indicadores relacionados ao lixo espacial e à sustentabilidade orbital."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#sobre_projeto",
+      "dialog_node": "node_3_1780274294895",
+      "previous_sibling": "node_4_1780086963596"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💫 Você selecionou: $orbita\n\n📡 Satélites de órbita média são muito utilizados para navegação e localização global.\n\nPrincipais satélites:\n🛰️ GPS Block III\n🛰️ Galileo\n🛰️ GLONASS"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Escolha:",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "💫 Órbitas",
+                "value": {
+                  "input": {
+                    "text": "consultar objetos em órbita"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1780275206160",
+      "context": {
+        "orbita": "@tipo_orbita"
+      },
+      "conditions": "@tipo_orbita:Média",
+      "dialog_node": "node_3_1780275393050",
+      "previous_sibling": "node_10_1780275217538"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "⭐️ Confira o ranking das empresas espaciais com maior reputação e maior score de sustentabilidade cadastradas na plataforma:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "🥇 Astroscale\n\n🌐 Site Oficial: www.astroscale.com\n\n✅ Reputação: Extremamente confiável\n📊 SCORE: 98/100\n\n🛰️ Satélites cadastrados na plataforma: 21\n🤝 Iniciativas Parceiras: 13"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "🥈 Leolabs\n\n🌐 Site Oficial: https://leolabs.space/\n\n✅ Reputação: Extremamente confiável\n📊 SCORE: 93/100\n\n🛰️ Satélites cadastrados na plataforma: 17\n🤝 Iniciativas Parceiras: 10"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "🥉 Digantara\n\n🌐 Site Oficial: www.digantara.co.in\n\n✅ Reputação: Confiável\n📊 SCORE: 89/100\n\n🛰️ Satélites cadastrados na plataforma: 12\n🤝 Iniciativas Parceiras: 8"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#ranking_reputacao",
+      "dialog_node": "node_3_1780276428088",
+      "previous_sibling": "node_3_1780274294895"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💫 Você selecionou: $iniciativa 😉\n🔺Insira seu CPF para confirmarmos sua identidade:\n(FORMATO: XXX.XXX.XXX-XX)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1780330413772",
+      "context": {
+        "iniciativa": "@iniciativas"
+      },
+      "conditions": "@iniciativas:(Orbital Clean Future)",
+      "dialog_node": "node_3_1780331263442"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastrar Empresa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ótimo! 🏢 Vamos cadastrar uma nova empresa ou organização espacial na plataforma.\n\n1️⃣ Insira o nome da empresa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#cadastrar_empresa",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1780086963596",
+      "previous_sibling": "node_7_1780271016761"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito! A empresa escolhida foi: $empresa\n2️⃣ Agora informe o nome do satélite:\n\n🔺 FORMATO: (nome de 1 a 10 letras) - (número de 1 a 6 caracteres)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1780097944381",
+      "context": {
+        "empresa": "@empresa"
+      },
+      "conditions": "@empresa:(Rocket Lab)",
+      "dialog_node": "node_4_1780095510168",
+      "previous_sibling": "node_3_1780095494124"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Satélite Artificial 🛰️",
+            "source": "https://starwalk.space/gallery/images/satellites-quiz-intro/1920x1080.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "✨ Você selecionou: $objeto 😉\n\n🔺Um satélite artificial é um equipamento construído pelo ser humano e colocado na órbita da Terra. Ele é utilizado para comunicação, internet, GPS, previsão do tempo, monitoramento ambiental e pesquisas científicas. Atualmente, os satélites são essenciais para serviços utilizados diariamente pela população."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "O que você gostaria de fazer agora? 😊",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "✨Mais objetos",
+                "value": {
+                  "input": {
+                    "text": "Explicar Objeto Espacial"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1780271506504",
+      "context": {
+        "objeto": "@objeto_espacial"
+      },
+      "conditions": "@objeto_espacial:(Satélite Artificial)",
+      "dialog_node": "node_4_1780271504336"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Meteoro 🌠",
+            "source": "https://s3.static.brasilescola.uol.com.br/be/2022/01/meteoro.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "✨ Você selecionou: $objeto 😉\n\n🔺Um meteoro é o fenômeno luminoso causado quando um pequeno corpo espacial entra na atmosfera terrestre e se aquece devido ao atrito. Popularmente, é conhecido como 'estrela cadente'."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "O que você gostaria de fazer agora? 😊",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "✨Mais objetos",
+                "value": {
+                  "input": {
+                    "text": "Explicar Objeto Espacial"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1780271506504",
+      "context": {
+        "objeto": "@objeto_espacial"
+      },
+      "conditions": "@objeto_espacial:Meteoro",
+      "dialog_node": "node_4_1780272608443",
+      "previous_sibling": "node_1_1780272915599"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💫 Você selecionou: $orbita\n\n🌎 Satélites geoestacionários permanecem alinhados com um mesmo ponto da Terra, sendo essenciais para comunicação e previsão climática.\n\nPrincipais satélites:\n🛰️ GOES-16\n🛰️ Star One D2\n🛰️ Intelsat 35e"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Escolha:",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "💫 Órbitas",
+                "value": {
+                  "input": {
+                    "text": "consultar objetos em órbita"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1780275206160",
+      "context": {
+        "orbita": "@tipo_orbita"
+      },
+      "conditions": "@tipo_orbita:Geoestacionária",
+      "dialog_node": "node_4_1780275422756",
+      "previous_sibling": "node_3_1780275393050"
+    },
+    {
+      "type": "standard",
+      "title": "Intenção Tchau",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até logo! 🌌 Obrigado por utilizar nossa plataforma espacial. Tenha uma excelente missão!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#encerrar_atendimento",
+      "dialog_node": "node_5_1780085783590",
+      "previous_sibling": "node_2_1780275194417"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito! A empresa escolhida foi: $empresa\n2️⃣ Agora informe o nome do satélite:\n\n🔺 FORMATO: (nome de 1 a 10 letras) - (número de 1 a 6 caracteres)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1780097944381",
+      "context": {
+        "empresa": "@empresa"
+      },
+      "conditions": "@empresa:SpaceX",
+      "dialog_node": "node_5_1780095366065"
+    },
+    {
+      "type": "folder",
+      "title": "Empresa",
+      "parent": "node_7_1780271016761",
+      "dialog_node": "node_5_1780097944381",
+      "previous_sibling": "node_9_1780096746277"
+    },
+    {
+      "type": "folder",
+      "title": "Explicar Objeto Espacial",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1780271393865",
+      "previous_sibling": "node_8_1780329540218"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💫 Você selecionou: $orbita\n\n🌎 Satélites de órbita alta possuem trajetórias mais distantes da Terra e costumam ser utilizados em pesquisas científicas e monitoramento espacial.\n\nPrincipais satélites:\n🛰️ Chandra X-ray Observatory\n🛰️ Spektr-R\n🛰️ THEMIS"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Escolha:",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              },
+              {
+                "label": "💫 Órbitas",
+                "value": {
+                  "input": {
+                    "text": "consultar objetos em órbita"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1780275206160",
+      "context": {
+        "orbita": "@tipo_orbita"
+      },
+      "conditions": "@tipo_orbita:Alta",
+      "dialog_node": "node_5_1780275444061",
+      "previous_sibling": "node_4_1780275422756"
+    },
+    {
+      "type": "folder",
+      "title": "órbitas",
+      "parent": "node_2_1780275194417",
+      "dialog_node": "node_6_1780275206160",
+      "previous_sibling": "node_7_1780275078896"
+    },
+    {
+      "type": "folder",
+      "title": "Cadastrar Satélite",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1780271016761",
+      "previous_sibling": "node_5_1780271393865"
+    },
+    {
+      "type": "folder",
+      "title": "objetos",
+      "parent": "node_5_1780271393865",
+      "dialog_node": "node_7_1780271506504",
+      "previous_sibling": "node_10_1780271243712"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "🛰️ Claro! Temos satélites organizados por tipo de órbita.",
+            "options": [
+              {
+                "label": "🔹 Baixa",
+                "value": {
+                  "input": {
+                    "text": "LEO"
+                  }
+                }
+              },
+              {
+                "label": "🔹 Média",
+                "value": {
+                  "input": {
+                    "text": "MEO"
+                  }
+                }
+              },
+              {
+                "label": "🔹 Geoestacionária",
+                "value": {
+                  "input": {
+                    "text": "Geoestacionária"
+                  }
+                }
+              },
+              {
+                "label": "🔹 Alta",
+                "value": {
+                  "input": {
+                    "text": "HEO"
+                  }
+                }
+              }
+            ],
+            "description": "Escolha qual órbita deseja consultar:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1780275194417",
+      "conditions": "#principais_satelites",
+      "dialog_node": "node_7_1780275078896"
+    },
+    {
+      "type": "folder",
+      "title": "Ingressar Iniciativa",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1780329540218",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Confirmei as informações:\n\nEmpresa: $empresa\nSatélite: $nome_satelite"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Sua solicitação foi enviada para nossa equipe e iremos responder o mais rápido possível 😉",
+            "options": [
+              {
+                "label": "✨Menu",
+                "value": {
+                  "input": {
+                    "text": "/start"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1780271016761",
+      "context": {
+        "nome_satelite": "@satelite.literal"
+      },
+      "conditions": "@satelite:satelite",
+      "dialog_node": "node_9_1780096746277"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "ORBIT-999999"
+    }
+  ],
+  "system_settings": {
+    "nlp": {
+      "model": "latest"
+    },
+    "disambiguation": {
+      "prompt": "",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Orbits-dialog"
+}

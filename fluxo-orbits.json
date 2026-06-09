@@ -1,0 +1,671 @@
+[
+    {
+        "id": "fbabe5f201b3768a",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "981b97d45ec15010",
+        "type": "telegram bot",
+        "botname": "Orbits-Bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "testenvironment": false,
+        "updatemode": "polling",
+        "pollinterval": 300,
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": 6667,
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbothost": "0.0.0.0",
+        "localbotport": 8443,
+        "publicbotport": 8443,
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "11d1d7945087063d",
+        "type": "telegram sender",
+        "z": "fbabe5f201b3768a",
+        "name": "Telegram Sender",
+        "bot": "981b97d45ec15010",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1750,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91b89d9acb4766e4",
+        "type": "telegram receiver",
+        "z": "fbabe5f201b3768a",
+        "name": "Bot",
+        "bot": "981b97d45ec15010",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "hasinput": false,
+        "inputs": 0,
+        "handleallupdates": false,
+        "handleprocessupdates": false,
+        "x": 100,
+        "y": 360,
+        "wires": [
+            [
+                "4556a37971b7bd03",
+                "89c74b0d11b545ab"
+            ],
+            [
+                "775f1b17d3242307"
+            ]
+        ]
+    },
+    {
+        "id": "a83b933e7c66d5ba",
+        "type": "watson-speech-to-text",
+        "z": "fbabe5f201b3768a",
+        "name": "",
+        "alternatives": 1,
+        "speakerlabels": true,
+        "smartformatting": false,
+        "lang": "pt-BR",
+        "langhidden": "pt-BR",
+        "langcustom": "NoCustomisationSetting",
+        "langcustomhidden": "",
+        "custom-weight": "0.5",
+        "band": "BroadbandModel",
+        "bandhidden": "",
+        "keywords": "",
+        "keywords-threshold": "0.5",
+        "word-confidence": false,
+        "password": "",
+        "apikey": "lNwBFL50o0kuWYhdrPWfXbPDVIm0yTzTeWwIS5aqc8vo",
+        "payload-response": true,
+        "streaming-mode": false,
+        "streaming-mute": true,
+        "auto-connect": false,
+        "discard-listening": false,
+        "disable-precheck": false,
+        "service-endpoint": "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/c023e195-1aca-48a3-92fe-68e86bb1579d",
+        "x": 630,
+        "y": 320,
+        "wires": [
+            [
+                "a4662ba35c6f8acc",
+                "178b27dddf9276e9"
+            ]
+        ]
+    },
+    {
+        "id": "f74332e9297be3db",
+        "type": "change",
+        "z": "fbabe5f201b3768a",
+        "name": "Voz",
+        "rules": [
+            {
+                "t": "set",
+                "p": "type",
+                "pt": "msg",
+                "to": "msg",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "chatId",
+                "pt": "msg",
+                "to": "payload.chatId",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.weblink",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 320,
+        "wires": [
+            [
+                "a83b933e7c66d5ba"
+            ]
+        ]
+    },
+    {
+        "id": "a4662ba35c6f8acc",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG STT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "transcription",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "3a67d9d45773bb18",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG FUNCTION 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4af8f045652b2f33",
+        "type": "watson-text-to-speech",
+        "z": "fbabe5f201b3768a",
+        "name": "",
+        "lang": "pt-BR",
+        "langhidden": "pt-BR",
+        "langcustom": "NoCustomisationSetting",
+        "langcustomhidden": "",
+        "voice": "pt-BR_LucasExpressive",
+        "voicehidden": "pt-BR_LucasExpressive",
+        "format": "audio/wav",
+        "password": "",
+        "apikey": "1mhcWg1x6FdaiqbYa_C2Uz1MeEWL22D2TmoDP7nTR4y1",
+        "payload-response": true,
+        "service-endpoint": "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/fcd024d5-47a0-40ea-8ca9-d05bd9b62143",
+        "x": 1400,
+        "y": 260,
+        "wires": [
+            [
+                "eeee90f286e0c015",
+                "83d2b8c052456c58"
+            ]
+        ]
+    },
+    {
+        "id": "eeee90f286e0c015",
+        "type": "function",
+        "z": "fbabe5f201b3768a",
+        "name": "function 1",
+        "func": "msg.payload = {\n    chatId: msg.chatId,\n    type: \"voice\",\n    content: msg.payload\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1580,
+        "y": 260,
+        "wires": [
+            [
+                "11d1d7945087063d",
+                "3a67d9d45773bb18"
+            ]
+        ]
+    },
+    {
+        "id": "4556a37971b7bd03",
+        "type": "switch",
+        "z": "fbabe5f201b3768a",
+        "name": "",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "voice",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "message",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "photo",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "f74332e9297be3db"
+            ],
+            [
+                "775f1b17d3242307"
+            ],
+            [
+                "6e3542a94d133db7"
+            ]
+        ]
+    },
+    {
+        "id": "cd676935eaae3668",
+        "type": "watson-assistant-v2",
+        "z": "fbabe5f201b3768a",
+        "name": "SoulMove",
+        "service-endpoint": "",
+        "assistant_id": "d88865ca-9f3a-4d4a-86c9-7e7d626157b1",
+        "debug": false,
+        "restart": false,
+        "return_context": true,
+        "alternate_intents": false,
+        "multisession": true,
+        "timeout": "",
+        "optout-learning": false,
+        "persist-session-id": false,
+        "x": 1050,
+        "y": 320,
+        "wires": [
+            [
+                "0a11370342b422f2",
+                "18c4b3b4b7e0a1b3"
+            ]
+        ]
+    },
+    {
+        "id": "91f814383b4bd4e9",
+        "type": "watson-assistant-v2",
+        "z": "fbabe5f201b3768a",
+        "name": "SoulMove",
+        "service-endpoint": "",
+        "assistant_id": "d88865ca-9f3a-4d4a-86c9-7e7d626157b1",
+        "debug": false,
+        "restart": false,
+        "return_context": true,
+        "alternate_intents": false,
+        "multisession": true,
+        "timeout": "",
+        "optout-learning": false,
+        "persist-session-id": false,
+        "x": 610,
+        "y": 520,
+        "wires": [
+            [
+                "1e040462e12e5110",
+                "9f7401df66de2e4b"
+            ]
+        ]
+    },
+    {
+        "id": "775f1b17d3242307",
+        "type": "function",
+        "z": "fbabe5f201b3768a",
+        "name": "function 4",
+        "func": "//PEGAR CONTEXTO\nmsg.params = {\n    session_id: flow.get(\"session_id\"),\n    context: flow.get(\"context\") || {}\n};\n\n\nmsg.chatId = msg.payload.chatId;\nmsg.payload = msg.payload.content;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 460,
+        "wires": [
+            [
+                "30d73d8130212e2d",
+                "91f814383b4bd4e9"
+            ]
+        ]
+    },
+    {
+        "id": "1e040462e12e5110",
+        "type": "function",
+        "z": "fbabe5f201b3768a",
+        "name": "function 5",
+        "func": "//guardar contexto\nif(msg.payload.context){\n    flow.set(\"context\", msg.payload.context);\n}\n\nif(msg.payload.session_id){\n    flow.set(\"session_id\", msg.payload.session_id);\n}\n\nconst generic = msg.payload?.output?.generic || [];\nconst chatId = msg.chatId || msg.payload?.chatId;\n\nfor (const item of generic) {\n\n    // TEXTO\n    if (item.response_type === \"text\") {\n\n        node.send([{\n            payload: {\n                chatId,\n                type: \"message\",\n                content: item.text\n            }\n        }, null]);\n\n    }\n\n    // IMAGEM\n    else if (item.response_type === \"image\") {\n\n        node.send([{\n            payload: {\n                chatId,\n                type: \"photo\",\n                content: item.source,\n                caption: `${item.title || \"\"}\\n${item.description || \"\"}`\n            }\n        }, null]);\n\n    }\n\n    // OPÇÕES\n    else if (item.response_type === \"option\") {\n\n        const opts = {\n            reply_markup: JSON.stringify({\n                inline_keyboard: item.options.map(opt => [{\n                    text: opt.label,\n                    callback_data:\n                        opt.value?.input?.text ||\n                        opt.value?.text ||\n                        opt.label\n                }])\n            })\n        };\n\n        node.send([null, {\n            payload: {\n                chatId,\n                type: \"message\",\n                content: item.title || \"Escolha uma opção:\",\n                options: opts\n            }\n        }]);\n\n    }\n}\n\nreturn null;",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 520,
+        "wires": [
+            [
+                "22e06663e0f9c35a",
+                "612bb8847c4c6105"
+            ],
+            [
+                "a8d9b25442271072",
+                "612bb8847c4c6105"
+            ]
+        ]
+    },
+    {
+        "id": "22e06663e0f9c35a",
+        "type": "telegram sender",
+        "z": "fbabe5f201b3768a",
+        "name": "",
+        "bot": "981b97d45ec15010",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1080,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30d73d8130212e2d",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG ANTES DO WATSON",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "b6cf8b739bd47721",
+        "type": "telegram event",
+        "z": "fbabe5f201b3768a",
+        "name": "",
+        "bot": "981b97d45ec15010",
+        "event": "callback_query",
+        "autoanswer": true,
+        "x": 210,
+        "y": 460,
+        "wires": [
+            [
+                "775f1b17d3242307",
+                "303e092f5d901147"
+            ]
+        ]
+    },
+    {
+        "id": "a8d9b25442271072",
+        "type": "delay",
+        "z": "fbabe5f201b3768a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.8",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 940,
+        "y": 600,
+        "wires": [
+            [
+                "22e06663e0f9c35a"
+            ]
+        ]
+    },
+    {
+        "id": "83d2b8c052456c58",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG TTS",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "0a11370342b422f2",
+        "type": "function",
+        "z": "fbabe5f201b3768a",
+        "name": "function 2",
+        "func": "//guardar contexto\nif(msg.payload.context){\n    flow.set(\"context\", msg.payload.context);\n}\n\nif(msg.payload.session_id){\n    flow.set(\"session_id\", msg.payload.session_id);\n}\n\nlet mens = msg.payload.output.generic[0]\nif (mens.response_type == \"text\"){\n    msg.payload = mens.text\n} else if (mens.response_type == \"image\"){\n    msg.payload = mens.title + \"\\n\" + mens.description;\n} else{\n    msg.payload = mens.title;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 260,
+        "wires": [
+            [
+                "4af8f045652b2f33"
+            ]
+        ]
+    },
+    {
+        "id": "2f64b6b3b0d48b9d",
+        "type": "function",
+        "z": "fbabe5f201b3768a",
+        "name": "function 3",
+        "func": "msg.payload = {\n    chatId: msg.chatId,\n    type: \"message\",\n    content: \"Meus criadores ainda não me ensinaram a ler imagens 😢\"\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 380,
+        "wires": [
+            [
+                "f407693764553439",
+                "fcbf7f2b56fcd1cb"
+            ]
+        ]
+    },
+    {
+        "id": "f407693764553439",
+        "type": "telegram sender",
+        "z": "fbabe5f201b3768a",
+        "name": "",
+        "bot": "981b97d45ec15010",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 860,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6e3542a94d133db7",
+        "type": "change",
+        "z": "fbabe5f201b3768a",
+        "name": "Imagem",
+        "rules": [
+            {
+                "t": "set",
+                "p": "chatId",
+                "pt": "msg",
+                "to": "payload.chatId",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 380,
+        "wires": [
+            [
+                "2f64b6b3b0d48b9d"
+            ]
+        ]
+    },
+    {
+        "id": "9f7401df66de2e4b",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG DEPOIS DO WATSON",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "18c4b3b4b7e0a1b3",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG DEPOIS DO WATSON",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "612bb8847c4c6105",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG FUNCTION 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "fcbf7f2b56fcd1cb",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG FUNCTION 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "89c74b0d11b545ab",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG TELEGRAM",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 230,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "303e092f5d901147",
+        "type": "debug",
+        "z": "fbabe5f201b3768a",
+        "name": "LOG QUERY",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "178b27dddf9276e9",
+        "type": "function",
+        "z": "fbabe5f201b3768a",
+        "name": "PEGAR CONTEXTO",
+        "func": "msg.params = {\n    session_id: flow.get(\"session_id\"),\n    context: flow.get(\"context\") || {}\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 320,
+        "wires": [
+            [
+                "cd676935eaae3668"
+            ]
+        ]
+    },
+    {
+        "id": "a5f3a6ae2e5f149f",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-contrib-telegrambot": "17.3.1",
+            "node-red-node-watson": "0.10.3"
+        }
+    }
+]
